@@ -1,0 +1,60 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-content padding class="ioniccontent">
+  <ion-grid>
+      <ion-row style="margin-top: 1em;">
+          <ion-col col-12><ion-title> Calculate GCD AND LCM</ion-title> </ion-col>
+        </ion-row>
+    <ion-row class="inputRows" style="margin-top: 1em;">
+      
+      <ion-col col-6>
+          <ion-item class="ionItem" >
+              <ion-input class="inputNumber" type="number" placeholder="Number 1" #digitOne id="digitOne"></ion-input>
+            </ion-item>
+      </ion-col>
+     
+      <ion-col col-6>
+          <ion-item  class="ionItem">
+              <ion-input class="inputNumber" type="number" placeholder="Number 2" #digitTwo id="digitTwo"></ion-input>
+            </ion-item>
+      </ion-col>
+
+    </ion-row>
+    <ion-row style="margin-top: 1em;">
+        <ion-col col-12>
+          <ion-button color="primary"  expand="full"  (click)="CalculateGcdLcm(digitOne.value,digitTwo.value)">Result</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row style="margin-top: 2em;">
+          <ion-col col-1></ion-col>
+          <ion-col col-5><ion-title> GCD </ion-title></ion-col>
+          <ion-col col-5><ion-title> LCM </ion-title></ion-col>
+          <ion-col col-1></ion-col>
+        </ion-row>
+        <ion-row style="margin-top: 2em;">
+
+            <ion-col col-6><ion-title> <ion-list>
+                <ion-item>
+                  <ion-icon name="arrow-round-down" item-start></ion-icon>
+                    {{OBEBSONUC}}
+                </ion-item>
+                
+              </ion-list> </ion-title></ion-col>
+            <ion-col col-6><ion-title> <ion-list>
+                <ion-item>
+                  <ion-icon name="arrow-round-up" item-start></ion-icon>
+                    {{OKEKSONUC}}
+                  
+                </ion-item>
+              </ion-list> </ion-title></ion-col>
+
+          </ion-row>
+  </ion-grid>
+</ion-content>
+

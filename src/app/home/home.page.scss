@@ -1,0 +1,40 @@
+
+    .inputNumber{
+        --background: #fff  !important;
+        --background-position: right 8px center  !important;
+        --background-repeat: no-repeat  !important;
+        --border: 1px solid #d1d5da  !important;
+        --border-radius: 3px  !important;
+        --box-shadow: inset 0 1px 2px rgba(27,31,35,.075)  !important;
+        --color: #24292e !important;
+        --font-size: 1em !important;
+
+        --outline: none !important;
+        --vertical-align: middle !important;
+    }
+    .ioniccontent{
+        --background: aqua !important;
+    }
+    .inputRows .ionItem{
+        padding: 0em !important;
+    }
+    .inputRows .ionItem .item-inner{
+        padding: 0em !important;
+    }
+
+    .toolbar-title.toolbar-title-md{
+        padding: 0em !important;
+    }
+
+    .toolbar-title.toolbar-title-md .item-inner{
+        margin-left: 0em !important;
+    }
+    
+    ion-title{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    ion-list{
+        padding: 0px;
+    }

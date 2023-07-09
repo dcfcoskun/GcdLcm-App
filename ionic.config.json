@@ -1,0 +1,7 @@
+{
+  "name": "GcdLcm",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
